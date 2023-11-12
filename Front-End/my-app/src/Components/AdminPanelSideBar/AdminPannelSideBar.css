@@ -1,0 +1,41 @@
+.AdminPannelSideBar {
+    height: 90vh;
+    width: 14vw;
+    float: left;
+    border-right: 1px solid rgb(214, 197, 197);
+}
+
+
+.AdminPannelSideBar > .button {
+    width: 100%;
+    height: 4%;
+    padding-bottom: 16%;
+    padding-top: 1%;
+    border-bottom: 1px solid rgb(173, 171, 171);
+}
+
+.AdminPannelSideBar > .button > h1 {
+    font-size: 15px;
+    margin-left: 10%;
+    padding-top: 4%;
+    float: left;
+    color: black;
+}
+
+.AdminPannelSideBar > .button > h2 {
+    font-size: 15px;
+    margin-left: 1%;
+    padding-top: 4%;
+    float: left;
+    color: black;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 325px) {
+}
+
+@media screen and (min-width: 325px) and (max-width: 600px) {
+}
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+}

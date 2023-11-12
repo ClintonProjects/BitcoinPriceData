@@ -1,0 +1,17 @@
+.infoColour {
+    background-color: var(--secondary-bg-color);
+}
+
+.feedback {
+    background-color: var(--bg-color);
+    padding-top: 2%;
+}
+
+.remove_overflow {
+    word-break: break-all;
+}
+
+.BodyFeedbackText {
+    min-height: 300px;
+    z-index: 0;
+}

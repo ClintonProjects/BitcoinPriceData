@@ -1,0 +1,11 @@
+2022-05-29 13:32:10.493[1653827530493] | INFO  | main       | c.b.c.client.utils.RequestHandler    - POST https://api.binance.com/api/v3/order/test?symbol=BTCUSDT&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.01&price=9500&timestamp=1653827530432&signature=b8d777cd00a5ff3356855813da9163f49ca523b296d5c80d942cf0aa67a784f3
+2022-05-29 13:34:15.683[1653827655683] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Connecting to stream.binance.com/ws/btcusdt@trade
+2022-05-29 13:34:17.611[1653827657611] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Connected to Server
+2022-05-29 13:34:17.682[1653827657682] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.impl.WebsocketClientImpl     - Closing 1 connections(s)
+2022-05-29 13:34:17.682[1653827657682] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Closing connection to stream.binance.com/ws/btcusdt@trade
+2022-05-29 13:34:17.685[1653827657685] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.impl.WebsocketClientImpl     - All connections are closed!
+2022-05-29 13:34:17.686[1653827657686] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.impl.WebsocketClientImpl     - All connections are closed!
+2022-05-29 13:34:17.686[1653827657686] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.impl.WebsocketClientImpl     - All connections are closed!
+2022-05-29 13:34:17.813[1653827657813] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.impl.WebsocketClientImpl     - All connections are closed!
+2022-05-29 13:34:31.976[1653827671976] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Connecting to stream.binance.com/ws/btcusdt@trade
+2022-05-29 13:34:33.796[1653827673796] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Connected to Server

@@ -1,0 +1,8 @@
+"{type:subscribe,
+channels: [
+{
+name:matches,
+product_ids:[BTC-USD]
+}
+]
+}"

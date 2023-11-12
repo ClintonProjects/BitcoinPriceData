@@ -1,0 +1,18 @@
+.Paymentmethods {
+    height: 7vh;
+    width: 100%;
+    background-color: var(--secondary-bg-color);
+    text-align: center;
+    background-color: rgb(15, 33, 46);
+    min-height: 30px;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 6px -1px, rgba(0, 0, 0, 0.2) 0px 4px 6px -1px; */
+}
+
+.methods {
+    height: 5vh;
+    width: 5vw;
+    min-height: 20px;
+    min-width: 50px;
+    margin-top: 0.75vh;
+    margin-left: 1.5vh;
+}

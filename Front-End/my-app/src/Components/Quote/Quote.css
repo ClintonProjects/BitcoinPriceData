@@ -1,0 +1,199 @@
+.Quote {
+    height: 8vh;
+    min-height: 60px;
+    width: 100%;
+    background-color: var(--secondary-bg-color);
+}
+
+.Quote>.spacer {
+    height: 8vh;
+    width: 22%;
+    /* background-color: wheat; */
+    float: left;
+}
+
+.Quote>.spacer2 {
+    height: 8vh;
+    width: 22%;
+    /* background-color: wheat; */
+    float: left;
+}
+
+.VerticalSpace>.button {
+    margin-top: 1.8vh;
+}
+
+.VerticalSpace {
+    height: 8vh;
+    width: 17%;
+    /* background-color: red; */
+    float: left;
+    text-align: center;
+}
+
+.VerticalSpace2 {
+    height: 8vh;
+    width: 17%;
+    /* background-color: red; */
+    padding-top: 1.5vh;
+    float: left;
+    text-align: center;
+}
+
+.VerticalSpace>.textcontainer {
+    margin-top: 3.1vh;
+    text-align: center;
+}
+
+.textcontainer>h1 {
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+button>span {
+    margin-left: 10px;
+    margin-right: 10px;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .Quote {
+        height: 8vh;
+        width: 100%;
+        min-height: 50px;
+    }
+
+    .Quote>.spacer {
+        height: 0vh;
+        width: 0%;
+    }
+
+    .Quote>.spacer2 {
+        height: 0vh;
+        width: 0%;
+        float: left;
+    }
+
+    .VerticalSpace>.button {
+        margin-top: 0vh;
+    }
+
+    .Quote>.VerticalSpace {
+        height: 0vh;
+        width: 0%;
+        float: left;
+        text-align: center;
+    }
+
+    .secondHolder {
+        height: 0vh;
+        width: 0%;
+        float: left;
+        text-align: center;
+    }
+
+    .VerticalSpace>.textcontainer {
+        margin-top: 0vh;
+    }
+
+    .textcontainer>h1 {
+        font-size: 0em;
+    }
+
+    button>span {
+        margin-left: 0;
+        margin-right: 0;
+        /* margin-top: 10px;
+        margin-bottom: 10px; */
+    }
+
+    .Quote>.VerticalSpace2 {
+        /* margin-top: 3vh; */
+        height: 3vh;
+        width: 100%;
+        margin: auto;
+        float: left;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+    .Quote {
+        height: 8vh;
+        width: 100%;
+        min-height: 50px;
+    }
+
+    .Quote>.spacer {
+        height: 0vh;
+        width: 0%;
+    }
+
+    .Quote>.spacer2 {
+        height: 0vh;
+        width: 0%;
+        float: left;
+    }
+
+    .VerticalSpace>.button {
+        margin-top: 0vh;
+    }
+
+    .Quote>.VerticalSpace {
+        height: 0vh;
+        width: 0%;
+        float: left;
+        text-align: center;
+    }
+
+    .secondHolder {
+        height: 0vh;
+        width: 0%;
+        float: left;
+        text-align: center;
+    }
+
+    .VerticalSpace>.textcontainer {
+        margin-top: 0vh;
+    }
+
+    .textcontainer>h1 {
+        font-size: 0em;
+    }
+
+    button>span {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .Quote>.VerticalSpace2 {
+        height: 3vh;
+        width: 100%;
+        margin: auto;
+        float: left;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+    .textcontainer>h1 {
+        font-size: 0.7em;
+    }
+
+    .Quote>.spacer {
+        height: 8vh;
+        width: 12%;
+        /* background-color: wheat; */
+        float: left;
+    }
+
+    .Quote>.spacer2 {
+        height: 8vh;
+        width: 41%;
+        /* background-color: wheat; */
+        float: left;
+    }
+
+}

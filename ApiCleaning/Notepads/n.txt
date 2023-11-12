@@ -1,0 +1,123 @@
+[
+{
+  "timestamp": "timestamp",
+  "exchange": "Bitmex",
+  "apiLink":"https://www.bitmex.com/api/v1/trade?count=50&reverse=true&symbol=XBTUSD",
+  "currency":"usd",
+  "cypto":"btc",
+  "price": "price",
+  "side": "side",
+  "size": "homeNotional",
+  "symbol": "BTC/USD",
+  "tranactionId": "trdMatchID"
+},
+{
+  "timestamp": "timestamp",
+  "exchange": "Bitmex",
+  "apiLink":"https://www.bitmex.com/api/v1/trade?count=50&reverse=true&symbol=XBTEUR",
+  "currency":"euro",
+  "cypto":"btc",
+  "price": "price",
+  "side": "side",
+  "size": "homeNotional",
+  "symbol": "BTC/EUR",
+  "tranactionId": "trdMatchID"
+},
+{
+  "timestamp": "timestamp",
+  "exchange": "Bitmex",
+  "apiLink":"https://www.bitmex.com/api/v1/trade?count=50&reverse=true&symbol=ETHUSD",
+  "currency":"usd",
+  "cypto":"eth",
+  "price": "price",
+  "side": "side",
+  "size": "homeNotional",
+  "symbol": "ETH/USD",
+  "tranactionId": "trdMatchID"
+},
+{
+  "timestamp": "timestamp",
+  "exchange": "Bitmex",
+  "apiLink":"https://www.bitmex.com/api/v1/trade?count=50&reverse=true&symbol=ETHEUR",
+  "currency":"euro",
+  "cypto":"eth",
+  "price": "price",
+  "side": "side",
+  "size": "homeNotional",
+  "symbol": "ETH/EUR",
+  "tranactionId": "trdMatchID"
+},
+{
+  "timestamp": "timestamp",
+  "exchange": "Bitmex",
+  "apiLink":"https://www.bitmex.com/api/v1/trade?count=50&reverse=true&symbol=LTCUSD",
+  "currency":"usd",
+  "cypto":"LTC",
+  "price": "price",
+  "side": "side",
+  "size": "homeNotional",
+  "symbol": "LTC/EUR",
+  "tranactionId": "trdMatchID"
+},
+{
+  "timestamp": "time",
+  "exchange": "coinbase pro",
+  "apiLink":"https://api.pro.coinbase.com/products/BTC-USD/trades?limit=50",
+  "currency":"usd",
+  "cypto":"BTC",
+  "price": "price",
+  "side": "side",
+  "size": "size",
+  "symbol": "BTC/USD",
+  "tranactionId": "trade_id"
+},
+{
+  "timestamp": "time",
+  "exchange": "coinbase pro",
+  "apiLink":"https://api.pro.coinbase.com/products/BTC-EUR/trades?limit=50",
+  "currency":"EUR",
+  "cypto":"BTC",
+  "price": "price",
+  "side": "side",
+  "size": "size",
+  "symbol": "BTC/EUR",
+  "tranactionId": "trade_id"
+},
+{
+  "timestamp": "time",
+  "exchange": "coinbase pro",
+  "apiLink":"https://api.pro.coinbase.com/products/ETH-USD/trades?limit=50",
+  "currency":"usd",
+  "cypto":"ETH",
+  "price": "price",
+  "side": "side",
+  "size": "size",
+  "symbol": "ETH/USD",
+  "tranactionId": "trade_id"
+},
+{
+  "timestamp": "time",
+  "exchange": "coinbase pro",
+  "apiLink":"https://api.pro.coinbase.com/products/ETH-EUR/trades?limit=50",
+  "currency":"EUR",
+  "cypto":"ETH",
+  "price": "price",
+  "side": "side",
+  "size": "size",
+  "symbol": "ETH/EUR",
+  "tranactionId": "trade_id"
+},
+{
+  "timestamp": "time",
+  "exchange": "binance",
+  "apiLink":"wss://stream.binance.com:9443/ws/ethusdt@kline_1m",
+  "currency":"USDT",
+  "cypto":"ETH",
+  "price": "price",
+  "side": "side",
+  "size": "size",
+  "symbol": "ETH/EUR",
+  "tranactionId": "trade_id"
+},
+
+]

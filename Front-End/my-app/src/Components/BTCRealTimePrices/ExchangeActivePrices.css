@@ -1,0 +1,8 @@
+.cbImage {
+    height: 2vh;
+}
+
+.activeExchanges{
+    background-color: var(--bg-color);
+    padding-bottom: 2vh;
+}

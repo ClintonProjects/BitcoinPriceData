@@ -1,0 +1,280 @@
+/* bootstrap fix for nav bar */
+.mss {
+    margin-left: (1rem * 3) !important;
+}
+
+/* Old nav code */
+
+.nav-colour {
+    /* width: 100%;
+    height: 4vh; */
+    background-color: var(--bg-color);
+    /* min-height: 35px; */
+    /* position: fixed; */
+}
+
+.LeftOfNav {
+    width: 40.5%;
+    height: 100%;
+    margin: 0;
+    float: 0;
+    float: left;
+    text-align: center;
+}
+
+.nav-support-button > h1 {
+    padding-top: 15%;
+    font-size: 1em;
+}
+
+.smallspace {
+    height: 100%;
+    width: 27.5%;
+    float: left;
+}
+
+.nav-brand {
+    height: 100%;
+    width: 60%;
+    margin: 0;
+    float: 0;
+    padding-top: 0.35vh;
+}
+
+.pikachuimage {
+    height: 2.3vh;
+    width: 2.3vw;
+    min-height: 23.5px;
+    max-width: 50px;
+    min-height: 27px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0vh;
+    float: right;
+    margin-top: 0.3vh;
+}
+
+.nav-brand h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    float: left;
+    margin: 0;
+    float: 0;
+}
+
+.nav-support-button {
+    float: left;
+    font-size: var(--header-font-sm);
+    color: white;
+    position: relative;
+    padding-top: 0vh;
+    text-align: left;
+}
+
+.nav-currency {
+    float: right;
+    /* padding-right: 10vw; */
+    font-size: var(--header-font-sm);
+    color: white;
+    position: relative;
+    padding-top: 0.75vh;
+    text-align: left;
+    outline-style: solid;
+    outline-color: coral;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+
+li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0.75vh 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    /* background-color: red; */
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2b2c3c;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+      /* background-color: #f1f1f1; */
+      /* margin-left: 10%; */
+    
+    }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .euflag {
+      padding-right: 10px;
+  }
+
+@media screen and (min-width: 0px) and (max-width: 200px) {
+    .smallspace {
+        height: 0%;
+        width: 0%;
+    }
+    .LeftOfNav {
+        width: 100%;
+    }
+    .nav-brand {
+        width: 50%;
+        /* background-color: #000000; */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pikachuimage {
+        height: 0%;
+        width: 0%;
+    }
+    .nav-support-button {
+        font-size: 0;
+        width: 0;
+        height: 0;
+    }
+    .pikachuimage {
+        width: 0;
+        width: 0;
+    }
+    .nav-support-button {
+        padding-top: 0.75vh;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 325px) {
+    .smallspace {
+        height: 100%;
+        width: 0%;
+    }
+    .pikachuimage {
+        float: right;
+    }
+    .LeftOfNav {
+        width: 100%;
+    }
+    .nav-brand {
+        width: 100%;
+    }
+    .pikachuimage {
+        width: 6vw;
+        min-width: 30px;
+    }
+    .nav-support-button {
+        float: right;
+        padding-right: 0%;
+        padding-top: 0vh;
+        font-size: 0;
+    }
+    .nav-brand h1 {
+        text-align: center;
+    }
+    .dropbtn {
+        font-size: 0;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .smallspace {
+        height: 100%;
+        width: 6%;
+    }
+    .pikachuimage {
+        float: right;
+    }
+    .LeftOfNav {
+        width: 50%;
+    }
+    .nav-brand {
+        width: 100%;
+    }
+    .pikachuimage {
+        width: 6vw;
+        min-width: 30px;
+    }
+    .nav-support-button {
+        float: right;
+        padding-right: 5%;
+        padding-top: 1vh;
+    }
+    .nav-brand h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    .smallspace {
+        height: 100%;
+        width: 13%;
+    }
+    .pikachuimage {
+        float: right;
+    }
+    .LeftOfNav {
+        width: 62%;
+    }
+    .nav-brand {
+        width: 100%;
+    }
+    .pikachuimage {
+        width: 6vw;
+        min-width: 30px;
+    }
+    .nav-support-button {
+        float: left;
+        padding-top: 1vh;
+    }
+    .nav-brand h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-height: 700px) and (max-height: 1000px) {}
+
+@media screen and (min-width: 0px) and (max-width: 800px) {}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {}
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {}
+
+@media screen and (min-width: 1500px) and (max-width: 1900px) {}
+
+
+

@@ -1,0 +1,98 @@
+2022-07-06 07:46:39.448[1657089999448] | INFO  | main       | c.b.analytics.DemoApplication        - Starting DemoApplication using Java 16.0.1 on Clinton with PID 20324 (C:\Users\Clinton\Documents\GitHub\MastersProject\Analytics\target\classes started by Clinton in C:\Users\Clinton\Documents\GitHub\MastersProject\Analytics)
+2022-07-06 07:46:39.452[1657089999452] | INFO  | main       | c.b.analytics.DemoApplication        - No active profile set, falling back to default profiles: default
+2022-07-06 07:46:40.600[1657090000600] | INFO  | main       | o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-07-06 07:46:40.700[1657090000700] | INFO  | main       | o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95 ms. Found 6 MongoDB repository interfaces.
+2022-07-06 07:46:41.419[1657090001419] | INFO  | main       | o.s.b.w.e.tomcat.TomcatWebServer     - Tomcat initialized with port(s): 8081 (http)
+2022-07-06 07:46:41.433[1657090001433] | INFO  | main       | o.a.coyote.http11.Http11NioProtocol  - Initializing ProtocolHandler ["http-nio-8081"]
+2022-07-06 07:46:41.433[1657090001433] | INFO  | main       | o.a.catalina.core.StandardService    - Starting service [Tomcat]
+2022-07-06 07:46:41.434[1657090001434] | INFO  | main       | o.a.catalina.core.StandardEngine     - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-06 07:46:41.739[1657090001739] | INFO  | main       | org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-06 07:46:41.761[1657090001761] | INFO  | main       | o.a.c.c.C.[Tomcat].[localhost].[/]   - Initializing Spring embedded WebApplicationContext
+2022-07-06 07:46:41.762[1657090001762] | INFO  | main       | o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2232 ms
+2022-07-06 07:46:42.053[1657090002053] | INFO  | main       | org.mongodb.driver.cluster           - Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=cluster0.kyxidkt.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-f2ncas-shard-0'}
+2022-07-06 07:46:42.110[1657090002110] | INFO  | cluster-ClusterId{value='62c52fd2e893ae430a262401', description='null'}-srv-cluster0.kyxidkt.mongodb.net | org.mongodb.driver.cluster           - Adding discovered server ac-6wuhho0-shard-00-02.kyxidkt.mongodb.net:27017 to client view of cluster
+2022-07-06 07:46:42.149[1657090002149] | INFO  | cluster-ClusterId{value='62c52fd2e893ae430a262401', description='null'}-srv-cluster0.kyxidkt.mongodb.net | org.mongodb.driver.cluster           - Adding discovered server ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017 to client view of cluster
+2022-07-06 07:46:42.151[1657090002151] | INFO  | cluster-ClusterId{value='62c52fd2e893ae430a262401', description='null'}-srv-cluster0.kyxidkt.mongodb.net | org.mongodb.driver.cluster           - Adding discovered server ac-6wuhho0-shard-00-00.kyxidkt.mongodb.net:27017 to client view of cluster
+2022-07-06 07:46:42.841[1657090002841] | INFO  | cluster-ClusterId{value='62c52fd2e893ae430a262401', description='null'}-ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017 | org.mongodb.driver.connection        - Opened connection [connectionId{localValue:6, serverValue:940053}] to ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017
+2022-07-06 07:46:42.841[1657090002841] | INFO  | cluster-rtt-ClusterId{value='62c52fd2e893ae430a262401', description='null'}-ac-6wuhho0-shard-00-00.kyxidkt.mongodb.net:27017 | org.mongodb.driver.connection        - Opened connection [connectionId{localValue:1, serverValue:857378}] to ac-6wuhho0-shard-00-00.kyxidkt.mongodb.net:27017
+2022-07-06 07:46:42.841[1657090002841] | INFO  | cluster-rtt-ClusterId{value='62c52fd2e893ae430a262401', description='null'}-ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017 | org.mongodb.driver.connection        - Opened connection [connectionId{localValue:5, serverValue:939965}] to ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017
+2022-07-06 07:46:42.841[1657090002841] | INFO  | cluster-ClusterId{value='62c52fd2e893ae430a262401', description='null'}-ac-6wuhho0-shard-00-02.kyxidkt.mongodb.net:27017 | org.mongodb.driver.connection        - Opened connection [connectionId{localValue:3, serverValue:865133}] to ac-6wuhho0-shard-00-02.kyxidkt.mongodb.net:27017
+2022-07-06 07:46:42.841[1657090002841] | INFO  | cluster-rtt-ClusterId{value='62c52fd2e893ae430a262401', description='null'}-ac-6wuhho0-shard-00-02.kyxidkt.mongodb.net:27017 | org.mongodb.driver.connection        - Opened connection [connectionId{localValue:2, serverValue:865137}] to ac-6wuhho0-shard-00-02.kyxidkt.mongodb.net:27017
+2022-07-06 07:46:42.841[1657090002841] | INFO  | cluster-ClusterId{value='62c52fd2e893ae430a262401', description='null'}-ac-6wuhho0-shard-00-00.kyxidkt.mongodb.net:27017 | org.mongodb.driver.connection        - Opened connection [connectionId{localValue:4, serverValue:857372}] to ac-6wuhho0-shard-00-00.kyxidkt.mongodb.net:27017
+2022-07-06 07:46:42.842[1657090002842] | INFO  | cluster-ClusterId{value='62c52fd2e893ae430a262401', description='null'}-ac-6wuhho0-shard-00-00.kyxidkt.mongodb.net:27017 | org.mongodb.driver.cluster           - Monitor thread successfully connected to server with description ServerDescription{address=ac-6wuhho0-shard-00-00.kyxidkt.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=351639600, setName='atlas-f2ncas-shard-0', canonicalAddress=ac-6wuhho0-shard-00-00.kyxidkt.mongodb.net:27017, hosts=[ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017, ac-6wuhho0-shard-00-02.kyxidkt.mongodb.net:27017, ac-6wuhho0-shard-00-00.kyxidkt.mongodb.net:27017], passives=[], arbiters=[], primary='ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_WEST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=62a9f62458af8d16f5464d8f, counter=4}, lastWriteDate=Wed Jul 06 07:46:44 BST 2022, lastUpdateTimeNanos=528126927027600}
+2022-07-06 07:46:42.842[1657090002842] | INFO  | cluster-ClusterId{value='62c52fd2e893ae430a262401', description='null'}-ac-6wuhho0-shard-00-02.kyxidkt.mongodb.net:27017 | org.mongodb.driver.cluster           - Monitor thread successfully connected to server with description ServerDescription{address=ac-6wuhho0-shard-00-02.kyxidkt.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=356996900, setName='atlas-f2ncas-shard-0', canonicalAddress=ac-6wuhho0-shard-00-02.kyxidkt.mongodb.net:27017, hosts=[ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017, ac-6wuhho0-shard-00-02.kyxidkt.mongodb.net:27017, ac-6wuhho0-shard-00-00.kyxidkt.mongodb.net:27017], passives=[], arbiters=[], primary='ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_WEST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=62a9f83aaec4bdc23701b02f, counter=3}, lastWriteDate=Wed Jul 06 07:46:44 BST 2022, lastUpdateTimeNanos=528126927032900}
+2022-07-06 07:46:42.842[1657090002842] | INFO  | cluster-ClusterId{value='62c52fd2e893ae430a262401', description='null'}-ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017 | org.mongodb.driver.cluster           - Monitor thread successfully connected to server with description ServerDescription{address=ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=348337000, setName='atlas-f2ncas-shard-0', canonicalAddress=ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017, hosts=[ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017, ac-6wuhho0-shard-00-02.kyxidkt.mongodb.net:27017, ac-6wuhho0-shard-00-00.kyxidkt.mongodb.net:27017], passives=[], arbiters=[], primary='ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='EU_WEST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff000000000000004d, setVersion=7, topologyVersion=TopologyVersion{processId=62a9f73e32d5ff72c8fd3326, counter=6}, lastWriteDate=Wed Jul 06 07:46:44 BST 2022, lastUpdateTimeNanos=528126926982000}
+2022-07-06 07:46:42.846[1657090002846] | INFO  | cluster-ClusterId{value='62c52fd2e893ae430a262401', description='null'}-ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017 | org.mongodb.driver.cluster           - Setting max election id to 7fffffff000000000000004d from replica set primary ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017
+2022-07-06 07:46:42.846[1657090002846] | INFO  | cluster-ClusterId{value='62c52fd2e893ae430a262401', description='null'}-ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017 | org.mongodb.driver.cluster           - Setting max set version to 7 from replica set primary ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017
+2022-07-06 07:46:42.846[1657090002846] | INFO  | cluster-ClusterId{value='62c52fd2e893ae430a262401', description='null'}-ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017 | org.mongodb.driver.cluster           - Discovered replica set primary ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017
+2022-07-06 07:46:43.255[1657090003255] | INFO  | main       | s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-06 07:46:43.787[1657090003787] | INFO  | main       | o.a.coyote.http11.Http11NioProtocol  - Starting ProtocolHandler ["http-nio-8081"]
+2022-07-06 07:46:43.842[1657090003842] | INFO  | main       | o.s.b.w.e.tomcat.TomcatWebServer     - Tomcat started on port(s): 8081 (http) with context path ''
+2022-07-06 07:46:43.843[1657090003843] | INFO  | main       | s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2022-07-06 07:46:43.880[1657090003880] | INFO  | main       | s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-07-06 07:46:43.929[1657090003929] | INFO  | main       | s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2022-07-06 07:46:44.204[1657090004204] | INFO  | main       | c.b.analytics.DemoApplication        - Started DemoApplication in 5.258 seconds (JVM running for 6.008)
+2022-07-06 07:47:04.303[1657090024303] | INFO  | http-nio-8081-exec-1 | o.a.c.c.C.[Tomcat].[localhost].[/]   - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-06 07:47:04.303[1657090024303] | INFO  | http-nio-8081-exec-1 | o.s.web.servlet.DispatcherServlet    - Initializing Servlet 'dispatcherServlet'
+2022-07-06 07:47:04.304[1657090024304] | INFO  | http-nio-8081-exec-1 | o.s.web.servlet.DispatcherServlet    - Completed initialization in 1 ms
+2022-07-06 07:47:11.480[1657090031480] | ERROR | http-nio-8081-exec-7 | o.a.c.c.C.[.[.[.[dispatcherServlet]  - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 2 path $] with root cause
+java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.Gson.fromJson(Gson.java:932)
+	at com.google.gson.Gson.fromJson(Gson.java:897)
+	at com.google.gson.Gson.fromJson(Gson.java:846)
+	at com.google.gson.Gson.fromJson(Gson.java:817)
+	at com.bitcoinprice.analytics.controllors.IpContollors.saveTest(IpContollors.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+2022-07-06 07:47:31.033[1657090051033] | INFO  | http-nio-8081-exec-2 | org.mongodb.driver.connection        - Opened connection [connectionId{localValue:7, serverValue:940035}] to ac-6wuhho0-shard-00-01.kyxidkt.mongodb.net:27017
